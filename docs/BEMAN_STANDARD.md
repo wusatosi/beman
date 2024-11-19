@@ -140,6 +140,16 @@ contain a one- or two-paragraph summary describing the library's purpose.
 **[CMAKE.PROJECT_NAME]** RECOMMENDATION: The CMake project name should be
 identical to the beman library name.
 
+Examples:
+
+```CMake
+project(
+    beman_exemplar
+    DESCRIPTION "A Beman library exemplar"
+    LANGUAGES CXX
+)
+```
+
 **[CMAKE.LIBRARY_NAME]** RECOMMENDATION: The CMake library target's name should
 be identical to the library name.
 
